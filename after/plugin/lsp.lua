@@ -12,9 +12,9 @@ end)
 ---
 
 -- Uncomment if lua lsp is installed
--- require('lspconfig').lua_ls.setup({})
+require('lspconfig').lua_ls.setup({})
 
 -- Uncommentif rust lsp if installed
 -- require('lspconfig').rust_analyzer.setup({})
 
-require('lspconfig').tsserver.setup({})
+require('lspconfig').tsserver.setup({}) 
