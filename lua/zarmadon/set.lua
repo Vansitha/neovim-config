@@ -9,9 +9,10 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
-vim.opt.hlsearch = false 
+vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.opt.signcolumn = "no" 
+vim.opt.signcolumn = "no"
+vim.o.termguicolors = true
 
-vim.cmd('colorscheme rose-pine')
+vim.cmd('highlight LineNr guifg=darkgray')

@@ -1,6 +1,2 @@
-require("zarmadon.remap")
 require("zarmadon.set")
-
-
-
-
+require("zarmadon.remap")

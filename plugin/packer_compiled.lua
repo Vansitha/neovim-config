@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -94,10 +104,20 @@ _G.packer_plugins = {
     path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["nordic.nvim"] = {
+    loaded = true,
+    path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/nordic.nvim",
+    url = "https://github.com/AlexvZyl/nordic.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-lint"] = {
+    loaded = true,
+    path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/nvim-lint",
+    url = "https://github.com/mfussenegger/nvim-lint"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -118,11 +138,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "/home/vansitha/.local/share/nvim/site/pack/packer/start/rose-pine",
-    url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,

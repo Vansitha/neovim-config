@@ -6,8 +6,12 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use "wbthomason/packer.nvim"
 
+  use 'mfussenegger/nvim-lint'
+
+  use "mhartington/formatter.nvim"
+
   use {
-    'nvim-telescope/telescope.nvim', 
+    'nvim-telescope/telescope.nvim',
     tag = '0.1.5',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
@@ -35,6 +39,8 @@ return require('packer').startup(function(use)
     "williamboman/mason.nvim"
   }
 
-  use { 'rose-pine/neovim', as = 'rose-pine' } 
+  use { 'AlexvZyl/nordic.nvim' }
+
+  use "rebelot/kanagawa.nvim"
 
 end)
